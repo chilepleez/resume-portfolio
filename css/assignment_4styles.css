@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: rgba(111, 129, 150, 0.5);
+  color: black;
+  background-image: url(assignment_4/images/placeholder images/annie-spratt-unsplash.jpg);
+}
+body {
+  text-align: center;
+  text-align: justify;
+  line-height: 1.2;
+  word-spacing: 0.25;
+  text-indent: inherit;
+  margin: 15px;
+  padding: 5px 5px;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  text-align: center;
+
+
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+h1 {
+    color: black;
+    padding: 10px 10px;
+    text-align: center justify;
+    font-weight:900;
+}
+h2 {
+    background-color: rgb(241, 202, 202);
+    width:50%;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+h3 {
+    /* background-color: rgb(226, 217, 134); */
+    width:35%;
+    margin:0 auto;
+}
+p {
+  text-align: center justify;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: 5px solid white;
+  width: 300px;
+  float: left;
+  
+  
+}
+li {
+  list-style-type: none;
+}

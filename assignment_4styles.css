@@ -1,0 +1,160 @@
+/* Wendy Jones Web 210 */
+
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+  color: black;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  text-align: justify;
+  line-height: 150%;
+  word-spacing: 0.25;
+  text-indent: inherit;
+  margin: 15px;
+  padding: 5px 5px;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  text-align: center;
+font-size: 18px;
+  background: conic-gradient(grey, rgb(241, 202, 202));
+
+  /* background-repeat:    no-repeat;
+  background-position: center; */
+  background-size: cover;
+}
+
+img {
+  border: 5px solid white;
+
+  width: 270px;
+height: 275px;
+  position: absolute;
+
+  padding: 27px;
+  z-index: -1;
+  bottom: 195px;
+  left: 1050px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* profile */
+h1 {
+  padding: 10px 10px;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 2px rgb(241, 202, 202);
+  font-size: 35px;
+}
+h2 {
+  background-color: rgb(110, 65, 93);
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  text-shadow: 1px 1px rgb(241, 202, 202);
+  position: relative;
+  z-index: 1;
+}
+
+/* projects */
+.projects {
+  background-color: beige;
+  width:80%;
+  height: 50%;
+  border: 2px solid rgb(168, 168, 155);
+  padding: 10px;
+}
+.workexp {
+  background-color: beige;
+  width: 80%;
+  height: 40%;
+  border: 2px solid rgb(168, 168, 155);
+  padding: 10px;
+}
+/* .work {
+  background-color: rgb(168, 168, 155);
+  width:80%;
+  height: 50%;
+} */
+
+h3 {
+  /* background-color: rgb(226, 217, 134); */
+  width: 35%;
+  margin: 0 auto;
+}
+p {
+  text-align: center;
+  /* text-align: justify; */
+  padding:10px;
+}
+
+/* education */
+.education {
+  background-color: beige;
+  width: 80%;
+  height: 50%;
+  border: 2px solid rgb(168, 168, 155);
+  padding: 10px;
+}
+
+/* contact social */
+
+.foot {
+ 
+  /* display: inline-block; */
+  
+
+}
+ul{
+ width:60%;
+   margin:0 auto; 
+   display: inline;
+    
+    
+}
+li {
+  list-style-type: none;
+  display: inline;
+ 
+}
+ul li {
+  
+}
+a {
+  text-decoration: none;
+  padding:2px;
+}
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(94, 93, 93);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(110, 65, 93);
+}
+
+/* selected link */
+a:active {
+  color: rgb(241, 202, 202);
+}
